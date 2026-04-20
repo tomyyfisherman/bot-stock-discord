@@ -1,0 +1,22 @@
+{
+  "name": "bot-stock-discord",
+  "version": "1.0.0",
+  "description": "Bot Discord de gestion de stock en slash commands avec embeds et pagination",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "stock",
+    "slash-commands",
+    "embeds"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.6.1"
+  }
+}
